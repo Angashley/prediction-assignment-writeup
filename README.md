@@ -19,3 +19,11 @@ The data for this project come from this source: http://groupware.les.inf.puc-ri
 
 ## Course
 
+Due to size limit, my html page could not be viewed in github. I have created a page on RPubs here:
+
+http://rpubs.com/angashley/prediction-assignment-writeup 
+
+Thank you,
+
+Ashley
+
