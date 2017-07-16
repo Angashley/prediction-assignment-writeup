@@ -206,8 +206,8 @@ The 2 first trees of the model are plotted below.
 xgb.plot.tree(feature_names = dimnames(trainingM)[[2]], 
               model = bst_Model,
               trees = 2,
-              plot_height = 1500, 
-              plot_width = 1200)
+              plot_height = 1200, 
+              plot_width = 1000)
 ```
 
 ## 4. Predicting the `testing_data` data set 
@@ -226,11 +226,7 @@ prediction_results
 
 In this project, we used the `xgboost` algorithm to build a prediction model based on 19622 observations from Weight Lifting Exercise Dataset. 
 
-```{r, include=FALSE}
-library('scales')
-```
-
-70% of the total observations were used to train the model while the remaining 30% were used for cross-validation. We ran 5-fold cross validation for 10 times. The model we finalised has an overall accuracy of `r percent(accuracy.validation)` on the validation test set; out of sample error is `r Out.of.sample.error`. 
+70% of the total observations were used to train the model while the remaining 30% were used for cross-validation. We ran 5-fold cross validation for 10 times. The model we finalised has an overall accuracy of `r accuracy.validation` on the validation test set; out of sample error is `r Out.of.sample.error`. 
 
 We believe that the model is well developed for prediction.   
 
