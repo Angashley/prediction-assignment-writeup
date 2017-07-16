@@ -1,0 +1,10 @@
+base
+RDocumentation
+knitr
+lattice
+ggplot2
+caret
+xgboost
+Matrix
+DiagrammeR
+scales
